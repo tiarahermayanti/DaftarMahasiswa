@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/txtNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiara Hermayanti"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtNim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1601082021"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#636363"
+                />
+
+            <TextView
+                android:id="@+id/txtJurusan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jaringan"
+                android:textSize="17sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#636363"/>
+
+            <TextView
+                android:id="@+id/txtJekel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jekel"
+                android:textSize="17sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#636363"/>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="17sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#636363"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
